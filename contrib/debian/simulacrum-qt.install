@@ -1,0 +1,6 @@
+usr/local/bin/simulacrum-qt usr/bin
+share/pixmaps/simulacrum32.xpm usr/share/pixmaps
+share/pixmaps/simulacrum16.xpm usr/share/pixmaps
+share/pixmaps/simulacrum128.png usr/share/pixmaps
+debian/simulacrum-qt.desktop usr/share/applications
+debian/simulacrum-qt.protocol usr/share/kde4/services/

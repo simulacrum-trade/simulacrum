@@ -1,0 +1,3 @@
+usr/local/bin/simulacrumd usr/bin
+usr/local/bin/simulacrum-cli usr/bin
+debian/examples/simulacrum.conf etc/simulacrum

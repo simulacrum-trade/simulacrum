@@ -1,0 +1,8 @@
+/usr/bin/simulacrum-cli		--	gen_context(system_u:object_r:simulacrum_exec_t,s0)
+/usr/sbin/simulacrumd		--	gen_context(system_u:object_r:simulacrum_exec_t,s0)
+/usr/lib(64)?/simulacrum/simulacrumd		--	gen_context(system_u:object_r:simulacrum_exec_t,s0)
+
+/etc/simulacrum(/.*)?		gen_context(system_u:object_r:simulacrum_conf_t,s0)
+/var/lib/simulacrum(/.*)?		gen_context(system_u:object_r:simulacrum_var_lib_t,s0)
+
+(/var)?/run/simulacrumd(/.*)?   gen_context(system_u:object_r:simulacrum_var_run_t,s0)

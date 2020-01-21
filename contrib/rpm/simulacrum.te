@@ -1,0 +1,81 @@
+policy_module(simulacrum, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type simulacrum_t;
+type simulacrum_exec_t;
+init_daemon_domain(simulacrum_t, simulacrum_exec_t)
+
+permissive simulacrum_t;
+
+type simulacrum_initrc_exec_t;
+init_script_file(simulacrum_initrc_exec_t)
+
+type simulacrum_conf_t;
+files_type(simulacrum_conf_t)
+
+type simulacrum_var_lib_t;
+files_type(simulacrum_var_lib_t)
+
+type simulacrum_var_run_t;
+files_type(simulacrum_var_run_t)
+
+type simulacrum_port_t;
+corenet_port(simulacrum_port_t)
+
+########################################
+#
+# simulacrum local policy
+#
+allow simulacrum_t self:process { fork };
+
+allow simulacrum_t self:fifo_file rw_fifo_file_perms;
+allow simulacrum_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(simulacrum_t, simulacrum_conf_t, simulacrum_conf_t)
+manage_files_pattern(simulacrum_t, simulacrum_conf_t, simulacrum_conf_t)
+
+manage_dirs_pattern(simulacrum_t, simulacrum_var_lib_t, simulacrum_var_lib_t)
+manage_files_pattern(simulacrum_t, simulacrum_var_lib_t, simulacrum_var_lib_t)
+files_var_lib_filetrans(simulacrum_t, simulacrum_var_lib_t, { dir file })
+
+manage_dirs_pattern(simulacrum_t, simulacrum_var_run_t, simulacrum_var_run_t)
+manage_files_pattern(simulacrum_t, simulacrum_var_run_t, simulacrum_var_run_t)
+
+sysnet_dns_name_resolve(simulacrum_t)
+corenet_all_recvfrom_unlabeled(simulacrum_t)
+
+allow simulacrum_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(simulacrum_t)
+corenet_tcp_sendrecv_generic_node(simulacrum_t)
+corenet_tcp_sendrecv_all_ports(simulacrum_t)
+corenet_tcp_bind_generic_node(simulacrum_t)
+
+gen_require(`
+    type simulacrum_port_t;
+')
+allow simulacrum_t simulacrum_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type simulacrum_port_t;
+')
+allow simulacrum_t simulacrum_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(simulacrum_t)
+
+files_read_etc_files(simulacrum_t)
+
+miscfiles_read_localization(simulacrum_t)
+
+sysnet_dns_name_resolve(simulacrum_t)
+
+allow simulacrum_t simulacrum_exec_t:file execute_no_trans;
+allow simulacrum_t self:process setsched;
+corecmd_exec_ls(simulacrum_t)
+corenet_tcp_connect_http_port(simulacrum_t)
+dev_read_urand(simulacrum_t)
+fs_getattr_xattr_fs(simulacrum_t)
+kernel_read_system_state(simulacrum_t)
