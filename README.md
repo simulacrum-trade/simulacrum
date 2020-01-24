@@ -66,9 +66,9 @@ Please visit [https://simulacrum.trade](https://simulacrum.trade) for further re
 <td>43201-129600</td>
 <td>10%</td>
 <td>90%</td>
-<td>5</td>
-<td>0.5</td>
-<td>4.5</td>
+<td>1.5</td>
+<td>0.15</td>
+<td>1.35</td>
 <td>1000</td>
 </tr>
 
@@ -77,9 +77,9 @@ Please visit [https://simulacrum.trade](https://simulacrum.trade) for further re
 <td>129601-259200</td>
 <td>10%</td>
 <td>90%</td>
-<td>7</td>
-<td>0.7</td>
-<td>6.3</td>
+<td>3</td>
+<td>0.3</td>
+<td>2.7</td>
 <td>5000</td>
 </tr>
 
@@ -87,9 +87,9 @@ Please visit [https://simulacrum.trade](https://simulacrum.trade) for further re
 <td>259201-518400</td>
 <td>10%</td>
 <td>90%</td>
-<td>10</td>
-<td>1</td>
-<td>9</td>
+<td>7</td>
+<td>0.7</td>
+<td>6.3</td>
 <td>10000</td>
 </tr>
 
