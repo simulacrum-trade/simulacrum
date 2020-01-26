@@ -540,7 +540,7 @@ RES_ICONS = \
   qt/simulacrum/res/img/ic-check-active.svg \
   qt/simulacrum/res/img/ic-folder.svg \
   qt/simulacrum/res/img/ic-switch-on.svg \
-  qt/simulacrum/res/img/img-qr-test.png \
+  qt/simulacrum/res/img/qr-code-svgrepo-com.svg \
   qt/simulacrum/res/img/ic-check-box.svg \
   qt/simulacrum/res/img/ic-check-box-dark-active.svg \
   qt/simulacrum/res/img/ic-check-box-indeterminate.svg \

@@ -135,7 +135,7 @@
         <file alias="img-logo-simulacrum-3x">simulacrum/res/img/img-logo-simulacrum@3x.png</file>
         <file alias="img-nav-logo-simulacrum">simulacrum/res/img/img-nav-logo-simulacrum.png</file>
         <file alias="img-qr-test-big">simulacrum/res/img/img-qr-test-big.png</file>
-        <file alias="img-qr-test">simulacrum/res/img/img-qr-test.png</file>
+        <file alias="img-qr-test">simulacrum/res/img/qr-code-svgrepo-com.svg</file>
         <file alias="img-welcome-step1">simulacrum/res/img/img-welcome-step1.png</file>
         <file alias="img-welcome-step2">simulacrum/res/img/img-welcome-step2.png</file>
         <file alias="img-welcome-step3">simulacrum/res/img/img-welcome-step3.png</file>
