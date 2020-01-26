@@ -455,7 +455,7 @@ void DashboardWidget::changeChartColors(){
         axisY->setGridLineColor(gridY);
         gridLineColorX = QColor(15,11,22);
         linePenColorY =  gridLineColorX;
-        backgroundColor = linePenColorY;
+        backgroundColor = QColor(0,13,25);
     }
 
     axisX->setGridLineColor(gridLineColorX);
