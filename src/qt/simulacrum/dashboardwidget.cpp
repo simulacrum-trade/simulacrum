@@ -638,7 +638,7 @@ void DashboardWidget::onChartRefreshed() {
     // init sets
     set0 = new QBarSet("SCM");
     //set1 = new QBarSet("zPIV");
-    set0->setColor(QColor(92,75,125));
+    set0->setColor(QColor(0,128,125));
     //set1->setColor(QColor(0, 128, 255));
 
     if(!series) {
