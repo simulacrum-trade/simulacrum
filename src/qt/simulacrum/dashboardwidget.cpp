@@ -47,6 +47,7 @@ DashboardWidget::DashboardWidget(SCMGUI* parent) :
     ui->right->setContentsMargins(20,20,20,0);
 
     // Title
+    // TODO: Add the amount of SCM received from MN rewards
     ui->labelTitle2->setText(tr("Staking Rewards"));
     setCssTitleScreen(ui->labelTitle);
     setCssTitleScreen(ui->labelTitle2);
@@ -56,14 +57,11 @@ DashboardWidget::DashboardWidget(SCMGUI* parent) :
     setCssSubtitleScreen(ui->labelSubtitle);
 
     // Staking Information
+    // TODO: Add the amount of SCM received from MN rewards
     ui->labelMessage->setText(tr("Amount of SCM staked."));
     setCssSubtitleScreen(ui->labelMessage);
     setCssProperty(ui->labelSquarePiv, "square-chart-piv");
-    //setCssProperty(ui->labelSquarezPiv, "square-chart-zpiv");
-    //ui->labelSquarezPiv->setVisible(false);
     setCssProperty(ui->labelPiv, "text-chart-piv");
-    //setCssProperty(ui->labelZpiv, "text-chart-zpiv");
-    //ui->labelZpiv->setVisible(false);
 
     // Staking Amount
     QFont fontBold;
