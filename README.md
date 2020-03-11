@@ -75,54 +75,54 @@ Please visit [https://simulacrum.trade](https://simulacrum.trade) for further re
 
 <tr>
 <td>129601-259200</td>
-<td>10%</td>
-<td>90%</td>
+<td>50%</td>
+<td>50%</td>
 <td>3</td>
-<td>0.3</td>
-<td>2.7</td>
+<td>1.5</td>
+<td>1.5</td>
 <td>5000</td>
 </tr>
 
 <tr>
 <td>259201-518400</td>
-<td>10%</td>
-<td>90%</td>
+<td>50%</td>
+<td>50%</td>
 <td>7</td>
-<td>0.7</td>
-<td>6.3</td>
+<td>3.5</td>
+<td>3.5</td>
 <td>10000</td>
 </tr>
 
 
 <tr>
 <td>518401-777600</td>
-<td>10%</td>
-<td>90%</td>
+<td>50%</td>
+<td>50%</td>
 <td>5</td>
-<td>0.5</td>
-<td>4.5</td>
+<td>2.5</td>
+<td>2.5</td>
 <td>10000</td>
 </tr>
 
 
 <tr>
 <td>777601-1036800</td>
-<td>10%</td>
-<td>90%</td>
+<td>50%</td>
+<td>50%</td>
 <td>2.5</td>
-<td>0.25</td>
-<td>2.25</td>
+<td>1.25</td>
+<td>1.25</td>
 <td>25000</td>
 </tr>
 
 
 <tr>
 <td>1036801 - </td>
-<td>10%</td>
-<td>90%</td>
+<td>50%</td>
+<td>50%</td>
 <td>1</td>
-<td>0.1</td>
-<td>0.9</td>
+<td>0.5</td>
+<td>0.5</td>
 <td>25000</td>
 </tr>
 
