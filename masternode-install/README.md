@@ -3,7 +3,7 @@
 
 ## VPS installation for the latest version
 ```
-wget -N https://masternode-install.sh
+wget -N https://raw.githubusercontent.com/simulacrum-trade/simulacrum/master/masternode-install/masternode-install.sh
 chmod +x masternode-install.sh
 bash masternode-install.sh
 ```
@@ -58,5 +58,3 @@ systemctl is-enabled simulacrum #To check if simulacrum service is enabled on bo
 ```
 ***
 
-## Credits
-https://github.com/zoldur
