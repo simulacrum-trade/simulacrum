@@ -7,12 +7,12 @@ COIN_DAEMON='simulacrumd'
 COIN_CLI='simulacrum-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_PATH_MOVE='/usr/local/'
-COIN_TGZ='https://github.com/simulacrum-trade/simulacrum/releases/download/v1.1.0/simulacrum-1.1.0-x86_64-linux-gnu.tar.gz'
+COIN_TGZ='https://github.com/simulacrum-trade/simulacrum/releases/download/v1.1.1/simulacrum-1.1.1-x86_64-linux-gnu.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='simulacrum'
 COIN_PORT=59472
 RPC_PORT=59473
-FOLDER_SRC=simulacrum-1.1.0
+FOLDER_SRC=simulacrum-1.1.1
 #COIN_BLOCKS='bootstrap URL'
 
 NODEIP=$(curl -s4 icanhazip.com)

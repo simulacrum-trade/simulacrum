@@ -32,7 +32,7 @@ Please visit [https://simulacrum.trade](https://simulacrum.trade) for further re
 <tr><td>Ticker</td><td>SCM</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Supply</td><td>21 000 000 SCM</td></tr>
-<tr><td>Masternode SCM requirement</td><td>1000 SCM</td></tr>
+<tr><td>Masternode SCM requirement</td><td>5000 SCM</td></tr>
 <tr><td>Premine</td><td>500 000 SCM</td></tr>
 <tr><td>Stake Maturity Age</td><td>1 Hour</td></tr>
  <tr><td>P2P Port:</td><td>59472</td></tr>

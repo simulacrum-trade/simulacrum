@@ -164,7 +164,7 @@ bool hasCharts = false;
 #ifdef USE_QTCHARTS
     hasCharts = true;
     isLoading = false;
-    setChartShow(MONTH);
+    setChartShow(YEAR);
     connect(ui->pushButtonYear, &QPushButton::clicked, [this](){setChartShow(YEAR);});
     connect(ui->pushButtonMonth, &QPushButton::clicked, [this](){setChartShow(MONTH);});
     connect(ui->pushButtonAll, &QPushButton::clicked, [this](){setChartShow(ALL);});

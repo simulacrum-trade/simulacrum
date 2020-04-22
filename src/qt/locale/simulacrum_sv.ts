@@ -1423,7 +1423,7 @@ Den startar automatiskt så snart plånboken har tillräckligt många bekräftel
         <translation>Skapa ny masternode kontrollör</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Simulacrum Masternode you must dedicate 10.000 SCM (the unit of Simulacrum) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Simulacrum Masternode you must dedicate 5000 SCM (the unit of Simulacrum) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>För att skapa en Simulacrum Masternode måste du avsätta 10.000 SCM (enheten till Simulacrum) till nätverket (dessa mynt är dock fortfarande dina och kommer aldrig att lämna ditt innehav). Du kan stänga av noden och låsa upp mynt när som helst.</translation>
     </message>
     <message>
@@ -1435,7 +1435,7 @@ Den startar automatiskt så snart plånboken har tillräckligt många bekräftel
         <translation>Ställ in Masternode namn</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 1000 SCM will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 5000 SCM will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>En transaktion på 10 000 SCM kommer göras till en ny tom adress i din plånbok. Adressen är märkt under huvudnodens namn.</translation>
     </message>
     <message>
