@@ -7,9 +7,12 @@
 
 #include "merkleblock.h"
 
+#include "main.h"
 #include "hash.h"
 #include "primitives/block.h" // for MAX_BLOCK_SIZE
 #include "utilstrencodings.h"
+
+
 
 
 CMerkleBlock::CMerkleBlock(const CBlock& block, CBloomFilter& filter)
