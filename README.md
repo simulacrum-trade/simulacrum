@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Simulacrum.trade 👋 </h1>
 
 <p align="center">
-    <a href="https://github.com/simulacrum-trade/simulacrum/releases/tag/v1.0.0" target="_blank">
+    <a href="https://github.com/simulacrum-trade/simulacrum/releases/tag/v1.2.0" target="_blank">
         <img alt="Latest version" src="https://img.shields.io/github/v/tag/simulacrum-trade/simulacrum?label=Version&style=plastic" target="_blank" />
       </a>
     <a href="https://github.com/simulacrum-trade/simulacrum/blob/master/COPYING" target="_blank">
