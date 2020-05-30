@@ -18,3 +18,6 @@ sudo apt-get install apt-cacher-ng
 
 #Run the compile environment setup
 ./gitian-build.py --docker --setup
+
+#Run the compile
+./gitian-build.py --docker -b -c -o w,l,m --detach-sign simulacrum v1.2.0
