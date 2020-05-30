@@ -12,4 +12,9 @@ curl -L -O https://raw.githubusercontent.com/simulacrum-trade/simulacrum/master/
 #make it executable
 chmod +x gitian-build.py
 
+#Get the prerequisites
+sudo apt-get update
+sudo apt-get install apt-cacher-ng
 
+#Run the compile environment setup
+./gitian-build.py --docker --setup
