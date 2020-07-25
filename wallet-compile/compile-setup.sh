@@ -6,6 +6,8 @@ GIT_USER_EMAIL = 'simulacrum.live@gmail.com'
 git config --global user.name $GIT_USER_EMAIL
 git config --global user.email $GIT_USER_EMAIL
 
+git clone https://github.com/devrandom/gitian-builder.git
+
 #Get the setup script
 curl -L -O https://raw.githubusercontent.com/simulacrum-trade/simulacrum/master/contrib/gitian-build.py
 
