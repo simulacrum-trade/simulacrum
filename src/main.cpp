@@ -2031,10 +2031,10 @@ int64_t GetBlockValue(int nHeight)
     } else if (nHeight > 43200 && nHeight <= 129600) {
         nSubsidy = 1.5 * COIN;
     // 3 SCM / block after 3 months, for another 3 months, the Masternode collateral should increase in the 3rd month
-    } else if (nHeight > 129600 && nHeight <= 259200) {
+    } else if (nHeight > 129600 && nHeight < 259200) {
         nSubsidy = 3 * COIN;
     // 7 SCM / block after 6 months, for another 6 months, the Masternode collateral should increase in the 6th month
-    } else if (nHeight > 259200 && nHeight <= 518400) {
+    } else if (nHeight >= 259200 && nHeight <= 518400) {
         nSubsidy = 7 * COIN;
     // Start the halving after 1 year, each 6 months
     } else if (nHeight > 518400 && nHeight <= 777600) {
